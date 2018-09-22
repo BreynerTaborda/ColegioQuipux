@@ -162,12 +162,15 @@ public class RegistrarMateria extends javax.swing.JFrame {
         } else {
             ter = "IDM";
         }
-
+/*
+        Ejemplo de git para comprobar (Brrar)
+        */
         int i = 0, c = 0, d = 0, ca = 2, c2 = 1;
         String con="";
          MateriaDaoImpl materiaDaoImpl = new MateriaDaoImpl();
         
          int j =materiaDaoImpl.listaMateria.size();
+          
             if (j < 10) {
                 i++;
                 con = "0" + "0" + i;
