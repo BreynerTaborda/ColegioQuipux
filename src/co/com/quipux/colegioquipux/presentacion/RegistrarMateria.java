@@ -150,6 +150,10 @@ public class RegistrarMateria extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     * boton registrar
+     * @param evt 
+     */
     private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
         String ter = "";
         if (RbtnSoc.isSelected()) {
