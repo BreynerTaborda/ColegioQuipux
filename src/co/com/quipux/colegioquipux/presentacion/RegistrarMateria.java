@@ -189,6 +189,7 @@ public class RegistrarMateria extends javax.swing.JFrame {
                     c2++;
                 }
                 if (c == ca) {
+                    
                     i = 0;
                     ca++;
                 }
