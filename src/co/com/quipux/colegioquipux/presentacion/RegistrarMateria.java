@@ -150,6 +150,10 @@ public class RegistrarMateria extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    /**
+     * boton registrar
+     * @param evt 
+     */
     private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
         String ter = "";
         if (RbtnSoc.isSelected()) {
@@ -162,12 +166,15 @@ public class RegistrarMateria extends javax.swing.JFrame {
         } else {
             ter = "IDM";
         }
-
+/*
+        Ejemplo de git para comprobar (Brrar)
+        */
         int i = 0, c = 0, d = 0, ca = 2, c2 = 1;
         String con="";
          MateriaDaoImpl materiaDaoImpl = new MateriaDaoImpl();
         
          int j =materiaDaoImpl.listaMateria.size();
+          
             if (j < 10) {
                 i++;
                 con = "0" + "0" + i;
